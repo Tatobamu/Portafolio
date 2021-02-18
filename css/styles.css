@@ -2,6 +2,7 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: normal;
+    margin: 0;
 }
 
 h1,
@@ -18,12 +19,21 @@ h1{
     line-height: 1.5em;
     letter-spacing: -.2px;
     color:white;
+    margin: ;
 }
 
 h1 strong{
     color: #026fff;
 }
-
+.project {
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background-color: white;
+}
 .project-details{
     width: 500px;
 }
@@ -40,8 +50,41 @@ h1 strong{
     }
 .header{
     background-color: #1b2127 ;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
 }
 .header a {
     color: white;
     text-decoration: none;
+}
+.portfolio{
+    background-color: #fafafa;
+}
+ol,ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.menu{
+    height: 90px;
+}
+.header ol{
+    display: flex;
+    height: 90px;
+}
+.header ol li {
+    height: 90px;
+}
+header a {
+    height: inherit;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+figure{
+    margin: 0;
+    height: 90px;
 }
