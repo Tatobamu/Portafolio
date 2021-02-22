@@ -3,6 +3,8 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: normal;
     margin: 0;
+    background-color: #607d8b;
+    
 }
 
 h1,
@@ -19,7 +21,7 @@ h1{
     line-height: 1.5em;
     letter-spacing: -.2px;
     color:white;
-    margin: ;
+    padding: 35px 20px;;
 }
 
 h1 strong{
@@ -40,10 +42,13 @@ h1 strong{
 .project-imageContainer{
     width: 500px;
 }
+.project-imageContainer img{
+    margin-left: 6rem;
+}
 .hero{
     height: 300px;
     background-image: url(../imagenes/GOPR0821.JPG);
-    background-size: 500px 300px;
+    background-size: 400px 300px;
     background-repeat: no-repeat;
     background-position-x: right;
     background-color: #1b2127 ;
@@ -59,7 +64,8 @@ h1 strong{
     text-decoration: none;
 }
 .portfolio{
-    background-color: #fafafa;
+    width: 65%;
+    margin: 0 auto;
 }
 ol,ul{
     margin: 0;
@@ -84,7 +90,6 @@ header a {
     align-items: center;
     padding: 0 10px;
 }
-figure{
-    margin: 0;
-    height: 90px;
+.logo{
+    margin: 0 20px;
 }
